@@ -26,10 +26,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Hello"
                 android:gravity="center"
                 android:textAlignment="center"
-                android:textSize="12sp" />
+                android:textSize="14sp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/description"
@@ -37,9 +37,9 @@
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="World"
                 android:textAlignment="center"
-                android:textSize="12sp" />
+                android:textSize="14sp"
+                android:textColor="@color/black"/>
         </LinearLayout>
 
         <LinearLayout
@@ -54,9 +54,9 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:layout_gravity="center"
-                android:text="World"
                 android:textAlignment="center"
-                android:textSize="12sp" />
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
         </LinearLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>
