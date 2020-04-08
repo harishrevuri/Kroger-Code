@@ -4,3 +4,7 @@ tests:
   test:
     action: dropx/products.get
     input: {}
+  test1:
+    action: dropx/products.get
+    input: {}
+    accounts: {}
