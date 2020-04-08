@@ -6,5 +6,6 @@ tests:
     input: {}
   test1:
     action: dropx/products.get
-    input: {}
+    input:
+      pids: rays
     accounts: {}
