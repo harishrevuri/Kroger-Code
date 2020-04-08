@@ -1,0 +1,6 @@
+options:
+  cors: true
+tests:
+  test:
+    action: dropx/products.get
+    input: {}
