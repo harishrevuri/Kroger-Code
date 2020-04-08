@@ -9,3 +9,8 @@ tests:
     input:
       pids: rays
     accounts: {}
+paths:
+  /paths0:
+    get:
+      action: dropx/products.get
+      accounts: {}
