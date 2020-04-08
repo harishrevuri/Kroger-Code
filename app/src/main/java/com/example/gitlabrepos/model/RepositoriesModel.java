@@ -1,14 +1,12 @@
 package com.example.gitlabrepos.model;
 
-import android.net.LocalSocketAddress;
-
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 /* Created by harishrevuri on 2020-04-08 */
 public class RepositoriesModel {
-    private Integer id;
+    private Long id;
     private String description;
     private String name;
     private String nameWithNamespace;
@@ -25,11 +23,21 @@ public class RepositoriesModel {
     private Integer starCount;
     private Integer forksCount;
 
-    public Integer getId() {
+    public NameSpace getNamespace() {
+        return namespace;
+    }
+
+    public void setNamespace(NameSpace namespace) {
+        this.namespace = namespace;
+    }
+
+    private NameSpace namespace;
+
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
